@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dennis Gall — Fotografie, Design &amp; AI</title>
+  <meta name="description" content="Dennis Gall, Fotograf und Senior Creative aus Köln. Die Seite ist umgezogen auf dennisgall.de.">
+
+  <!-- Google: dennisgall.de ist die kanonische Adresse -->
+  <link rel="canonical" href="https://dennisgall.de/">
+  <meta name="robots" content="noindex, follow">
+
+  <!-- Weiterleitung ohne JavaScript -->
+  <meta http-equiv="refresh" content="0; url=https://dennisgall.de/">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #0a0a0c;
+      color: #f4f1f2;
+      font-family: "Space Grotesk", -apple-system, sans-serif;
+      min-height: 100dvh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem;
+      gap: 1.25rem;
+    }
+    .mono {
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 0.7rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: rgba(244, 241, 242, 0.5);
+    }
+    .mono .dot { color: #ff3d8e; }
+    h1 {
+      font-size: clamp(1.6rem, 5vw, 2.6rem);
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      line-height: 1.15;
+    }
+    h1 .accent { color: #ff3d8e; }
+    a {
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 0.75rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #0a0a0c;
+      background: #ff3d8e;
+      border-radius: 999px;
+      padding: 0.95rem 2.1rem;
+      text-decoration: none;
+      margin-top: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <p class="mono">Dennis Gall <span class="dot">✦</span> Köln</p>
+  <h1>Die Seite wohnt jetzt auf<br><span class="accent">dennisgall.de</span></h1>
+  <p class="mono">Du wirst automatisch weitergeleitet</p>
+  <a href="https://dennisgall.de/">Jetzt weiter</a>
+
+  <script>
+    // replace() statt href, damit der Zurück-Button nicht in einer Schleife landet
+    location.replace("https://dennisgall.de/");
+  </script>
+</body>
+</html>
